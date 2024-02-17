@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+/*This h1 is the head that says Carmen Cleaning Service at the begning of the body on index.php*/
+h1 {
+  color: rgb(64, 148, 109);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/*Styles the Navigation bar at the top of the page*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
+   Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+  This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive,
+  .topnav input[type="text"] {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type="text"] {
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 5px;
+  font-size: 17px;
+}
+/*Style the button for the icon serach bar*/
+.topnav button {
+  float: left; /* icon  float to left */
+  padding: 5px; /*space between icon and search box field*/
+  margin-top: 8px;
+  font-size: 17px;
+}
+/*style top image at the index.php */
+.cleaning {
+  flex: 1; /* Make the image flexible */
+  max-width: 500; /* Set a specific maximum width */
+  max-height: 250; /* Set a specific maximum height */
+}
+.cleaning-div {
+  text-align: center;
+  padding: 50px;
+}
+/*Style the txt on the index.php page div class="xt-index" paragraph*/
+
+/* Style the text under the image */
+.txt-index {
+  text-align: center;
+  max-width: 1000px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.txt-index p {
+  font-size:25px;
+  line-height: 1.5;
+  color: #1a1818;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: #141414;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-top: 200px;
+}
+.logo {
+  flex: 1;
+}
+.cleanToolimg_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%vh;
+
+}
+
+.cleaningToolimg {
+  flex-shrink: 1; /* or any value other than 0 */
+  width: 50%;
+  max-width: 100%; /* Optional: Ensure the image doesn't exceed its container */
+  height: auto; /* Optional: Maintain aspect ratio */
+  margin-left: 100%;
+}
