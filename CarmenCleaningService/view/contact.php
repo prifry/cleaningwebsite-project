@@ -39,7 +39,7 @@
     </div>
     <div style="padding-left:16px" class="cleaning-div">
 
-        <form action="contact_process.php" method="POST" style="border:1px solid #ccc">
+        <form action="contact_process.php" method="POST" onsubmit="return validateForm()" style="border:1px solid #ccc">
             <div class="container">
                 <h1 class="signuph1">Contact Us </h1>
                 <p>Please fill in this form to sent us a note about what you need.</p>
