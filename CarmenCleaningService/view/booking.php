@@ -65,6 +65,11 @@ $bookings = BookingDB::getBookings($userId);
 
     <form action="../view/process_booking.php" method="POST" style="border:1px solid #ccc">
       <div class="container">
+          <div class="txt-index">
+            <p style="font-weight:bold;">Phone: 000-000-0000</p>
+            <p style="font-weight:bold;">E-Mail: carmen@carmen.com</p>
+            <p style="font-weight:bold;">Hours of operation: Monday to Friday 8am to 5pm</p>
+          </div>
         <br>
         <br>
         <label for="submitDate" style="color:blue;"><b>Choose Date:</b></label>
@@ -164,13 +169,6 @@ $bookings = BookingDB::getBookings($userId);
               <a href="../view/thank_you.php" class="signupbtn" style="text-decoration: none; text-align:center;"><b>LogOut</b></a>
       </div>
     </div>
-
-
-  <div class="txt-index">
-    <p style="font-weight:bold;">Phone: 000-000-0000</p>
-    <p style="font-weight:bold;">E-Mail: carmen@carmen.com</p>
-    <p style="font-weight:bold;">Hours of operation: Monday to Friday 8am to 5pm</p>
-  </div>
   <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
