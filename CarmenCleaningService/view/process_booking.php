@@ -58,6 +58,7 @@ if ($conn) {
                 if ($stmt->execute()) {
                       // Retrieve the service ID after inserting into the database
                     if ($stmt->affected_rows > 0) {
+                         header("Location: booking.php");
                         exit();
                     } else {
                         echo "Error: Unable to insert booking.";
