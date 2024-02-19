@@ -42,6 +42,11 @@
         <form action="contact_process.php" method="POST" onsubmit="return validateForm()" style="border:1px solid #ccc">
             <div class="container">
                 <h1 class="signuph1">Contact Us </h1>
+                     <div class="txt-index">
+                        <p style="font-weight:bold;">Phone: 000-000-0000</p>
+                        <p style="font-weight:bold;">E-Mail: carmen@carmen.com</p>
+                        <p style="font-weight:bold;">Hours of operation: Monday to Friday 8am to 5pm</p>
+                    </div>
                 <p>Please fill in this form to sent us a note about what you need.</p>
                 <hr>
 
@@ -107,13 +112,6 @@
                 </div>
             </div>
         </form>
-
-        <div class="txt-index">
-            <p style="font-weight:bold;">Phone: 000-000-0000</p>
-            <p style="font-weight:bold;">E-Mail: carmen@carmen.com</p>
-            <p style="font-weight:bold;">Hours of operation: Monday to Friday 8am to 5pm</p>
-        </div>
-
         <!-- Footer -->
         <footer>
             <p>&copy; 2024 Carmen Cleaning Services. All rights reserved.</p>
