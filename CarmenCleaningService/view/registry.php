@@ -39,7 +39,7 @@
     </div>
     <div style="padding-left:16px" class="cleaning-div">
 
-        <form action="register.php" method="POST" style="border:1px solid #ccc">
+        <form action="register.php" method="POST" onsubmit="return validateForm()" style="border:1px solid #ccc">
             <div class="container">
                 <h1 class="signuph1">Sign Up!</h1>
                 <p>Please fill in this form to create an account.</p>
