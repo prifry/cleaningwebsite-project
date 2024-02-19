@@ -82,7 +82,7 @@ $bookings = BookingDB::getBookings($userId);
         <br>
         <br>
         <div class="btn-group">
-          <input type="submit" class="button" value="Book Now" style="color: green;">
+          <input type="submit" class="button" value="Book Now" style="color: white;">
           <input type="button" class="button" value="Cancel" style="color: red;" onclick="window.location.href='service.php'">
         </div>
         <br>
