@@ -19,9 +19,7 @@ Database Schema:
 
 ![image](https://github.com/prifry/cleaningwebsite-project/assets/88210504/a3049f57-8484-466f-b1f3-c5ede8c59243)
 
-![image](https://github.com/prifry/cleaningwebsite-project/assets/88210504/9cff4766-7952-4e6f-921d-f3ccbb88b59d)
 
-![image](https://github.com/prifry/cleaningwebsite-project/assets/88210504/56d89ef9-d595-4fac-8419-3d07b003c0b2)
 
 
 
